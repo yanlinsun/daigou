@@ -14,3 +14,12 @@ Makefile.in
 /stamp-h1
 
 .DS_Store
+logs/*
+!.gitkeep
+node_modules/
+bower_components/
+lib/
+tmp
+.DS_Store
+.idea
+*.swp
