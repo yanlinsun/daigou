@@ -1,0 +1,21 @@
+<div ng-controller="OrderListController" class="container">
+    <div>
+        <span>Filter:</span>
+        <input type="text" ng-model="pfilter" />
+    </div>
+    <div class="toolbar">
+        <a href="#/o/o" disabled="{{listType = 'o'}}">Ongoing</a>
+        <a href="#/o/d" disabled="{{listType = 'd'}}">Delivered</a>
+        <a href="#/o/f" disabled="{{listType = 'f'}}">Finished</a>
+    </div>
+    <div class="panel panel-default" ng-repeat="order in orders | filter:pfilter | orderBy: date">
+        <div class="row">
+            <img ng-src="resources/products/{{order.product.photo}}" width="150px" height="150px" />
+            <div class="col-md-8">
+                <div>{{order.customer.name}}</div>
+                <div>{{order.date}}</div>
+                <div>{{order.status}}</div>
+            </div>
+        </div>
+    </div>
+</div>

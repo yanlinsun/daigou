@@ -1,0 +1,57 @@
+[
+    {
+        "id": "cvt01",
+        "name" : "Comvita Honey",
+        "brand" : "Comvita",
+        "model" : "5+",
+        "type" : "500g",
+        "photo" : "comvita.jpeg"
+    },
+    {
+        "id" : "eco01",
+        "brand" : "Ecostore",
+        "name" : "Soap",
+        "model" : "Coconut",
+        "type" : "50g",
+        "photo" : "ecostore.jpeg"
+    },
+    {
+        "id" : "eco02",
+        "brand" : "Ecostore",
+        "name" : "Baby Wash",
+        "model" : "Goat Milk",
+        "type" : "500ml",
+        "photo" : "ecostore_wash.jpeg"
+    },
+    {
+        "id" : "frd01",
+        "brand" : "Floradix",
+        "name" : "Formula",
+        "model" : "Original",
+        "type" : "500ml",
+        "photo" : "floradix_formula.jpeg"
+    },
+    {
+        "id" : "krc01",
+        "brand" : "Karicare",
+        "name" : "Goat Milk",
+        "model" : "Original",
+        "type" : "500g",
+        "photo" : "goatmilk.jpeg"
+    },
+    {
+        "id" : "rs01",
+        "brand" : "Red Seal",
+        "name" : "Molasses",
+        "model" : "",
+        "type" : "500g",
+        "photo" : "redseal_molasses.jpeg"
+    },
+    {
+        "id" : "ugg01",
+        "brand" : "",
+        "name" : "UGG",
+        "model" : "Brown",
+        "type" : "",
+        "photo" : "UGG.jpeg"
+    }

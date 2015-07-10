@@ -1,0 +1,37 @@
+{
+    "fullname" : "鲍蕾",
+    "mobile" : "13351609033",
+    "address" : "哈尔滨市公安局双城分局政工监督室",
+    "postcode" : "150100",
+    "city" : "哈尔滨",
+    "province" : "黑龙江",
+    "thumbnail" : "hermaine_granger.jpg",
+    "total" : "2560",
+    "orders" : [
+        {
+            "date" : "2015-6-29",
+            "count" : "3",
+            "products" : {
+                "eco1" : {
+                    "count" : 1,
+                    "price" : 128
+                },
+                "kg1" : {
+                    "count" : 2,
+                    "price" : 388
+                }
+            },
+            "price" : 998
+        },{
+            "date" : "2015-7-9",
+            "count" : "2",
+            "products" : {
+                "kg1" : {
+                    "count" : 2,
+                    "price" : 388
+                }
+            },
+            "price" : 698
+        }
+    ]
+}

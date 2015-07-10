@@ -1,0 +1,14 @@
+<div>
+    <img ng-src="{{customer.thumbnail}}" class="thumbnail" />
+    <p>{{customer.displayName}}</p>
+    <p>{{order.timestamp}}</p>
+    <p>{{order.price}}</p>
+    <ul>
+        <li ng-repeat="item in order.products">
+            <span>{{item}}</span>
+        </li>
+    </ul>
+    <p>Express</p>
+    <p>{{order.express.vendor}}</p>
+    <p>{{order.express.status}}</p>
+</div>

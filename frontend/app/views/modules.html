@@ -1,0 +1,5 @@
+<div ng-controller="ModulesController" class="panel panel-default">
+    <div ng-repeat="module in modules">
+        <button ng-click="click('{{module.id}}')" class="btn btn-primary"><img ng-src="resources/{{module.icon}}" /> {{module.name}}</button>
+    </div>
+</div>

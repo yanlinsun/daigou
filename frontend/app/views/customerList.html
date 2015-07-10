@@ -1,0 +1,11 @@
+<div ng-controller="CustomerController">
+    <div>
+    <span>Search:</span><input type="text" ng-model="searchstring" />
+    </div>
+    <div ng-repeat="customer in customers | filter:searchstring | orderBy:fullname" class="panel panel-default">
+        <img ng-src="thumbnails/{{customer.thumbnail}}" width="150px" height="150px" class="thumbnail" />
+        <p><a href="#/c/{{customer.id}}">{{customer.fullname}}</a></p>
+        <p><span>Tel:</span><span>{{customer.mobile}}</span></p>
+        <p><span>Address:</span><span>{{customer.province}} {{customer.city}} {{customer.address}}</span></p>
+    </div>
+</div> 

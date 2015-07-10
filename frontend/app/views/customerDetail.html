@@ -1,0 +1,6 @@
+<div ng-controller="CustomerController" class="panel panel-default">
+    <div class="panel-heading">{{customer.fullname}}</div>
+    <img ng-src="thumbnails/{{customer.thumbnail}}" width="150px" height="150px" class="thumbnail" />
+    <div><span>Tel:</span><span>{{customer.mobile}}</span></div>
+    <div><span>Address:</span><span>{{customer.province}} {{customer.city}} {{customer.address}}</span></div>
+</div>

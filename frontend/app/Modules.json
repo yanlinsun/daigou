@@ -1,0 +1,14 @@
+{
+    "order" :
+            { 
+                "id" : "order",
+                "name" : "Order List",
+                "url" : "/orderList"
+            },
+    "customer" :
+            {
+                "id" : "customer",
+                "name" : "Customers",
+                "url" : "/c"
+            }
+}
