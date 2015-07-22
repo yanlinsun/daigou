@@ -7,7 +7,7 @@ var daigouServices = angular.module('daigouServices', ['ngResource']);
 daigouServices.factory('Order', ['$resource',
     function($resource){
         return $resource('datas/o/:orderId:listType.json', {}, {
-            query: { method:'GET', null, isArray:true }
+            query: { method:'GET', params: null, isArray:true }
         });
     }]);
 
@@ -33,7 +33,7 @@ daigouServices.factory('Thumbnail', ['$resource',
 
 daigouServices.factory('Modules', ['$resource',
         function($resource) {
-            return $resource('modules.json', null, null );
+            return $resource('modules.json');
         }
     ]
 );

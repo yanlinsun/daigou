@@ -4,8 +4,6 @@
 var daigouApp = angular.module('daigouApp', [
     'ngRoute',
     'ngResource',
-    'OrderListView',
-    'OrderDetailView',
     'Controllers',
     'daigouServices'
 ]);
@@ -15,7 +13,7 @@ daigouApp.config(['$routeProvider',
         $routeProvider.when('/c', {
             templateUrl: 'views/customerList.html',
         });
-        $routerProvider.when('/c/:customerId', {
+        $routeProvider.when('/c/:customerId', {
             templateUrl: 'views/customerDetail.html'
         });
         $routeProvider.when('/ol/:listType', {

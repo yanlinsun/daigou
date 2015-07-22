@@ -32,7 +32,7 @@ controllers.controller('ProductListController',
         }]
 );
 
-controllers.controller('CustomerController',
+controllers.controller('ProductController',
         [ '$scope', '$routeParams', 'Product',
         function($scope, $routeParams, Product) {
             $scope.product = Product.get({ id : $routeParams.id });
@@ -48,7 +48,7 @@ controllers.controller('OrderListController',
     ]
 );
 
-orderDetailView.controller('OrderDetailController', 
+controllers.controller('OrderDetailController', 
     [ '$scope', '$routeParams', 'Order', 
         function ($scope, $routeParams, Order) {
             $scope.order = Order.get({ orderId: $ourteParams.orderId });
